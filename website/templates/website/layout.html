@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anee Mändmets - {{ title }}</title>
+        <link rel="stylesheet" href="{% static 'website/style.css' %}">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="{% url 'index' %}">HOME</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="blog.html">BLOG</a> 
+            </nav>
+        </header>
+        {% block main %}
+        {% endblock %}
+    </body>
+    <footer>
+        <p>&copy; 2025 Anee Mändmets</p>
+    </footer>
+</html>
