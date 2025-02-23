@@ -2,131 +2,135 @@
 {% load static %}
 
 {% block main %}
-<div class="introduction-container">
-    <div class="introduction-text">
-        <h2>HEY, I AM ANEE!</h2>
-        <h5>BSc IN HARDWARE DEVELOPMENT AND PROGRAMMING</h5>
-        <p>Lovely to see you have found my personally handcrafted website!</p>
-        <p>As one would expect, a hardware developer has nothing to do with web development, so this website is not supposed to be perfect :) </p>
-        <p>Instead, here's what I have more experience with: </p>
-            <ul>
-                <li>Programming different microcontrollers (Arduino, ESP32, STM32, etc.)</li>
-                <li>Coding terminal-based programs in C/C++</li>
-                <li>Electronics, prototyping</li>
-                <li>Linux, Raspberry Pi</li>
-                <li>Working with a MySQL database</li>
-                <li>Basic software development with C# and .NET framework</li>
-                <li>Git</li>
-                <li>Scrum and agile development methodologies</li>
-                <li>Teamwork, teamwork, and even more teamwork!</li>
-            </ul>
-        
-    </div>
-    <img src="{% static 'website/images/port-pic.jpg' %}" alt="A picture of me working on a project prototype. Pic by Johan Hallimäe." class="intro-pic">
-</div>
+<main>
+  <div class="introduction-container">
+      <div class="introduction-text">
+          <h2>HEY, I AM ANEE!</h2>
+          <h5>BSc IN HARDWARE DEVELOPMENT AND PROGRAMMING</h5>
+          <p>Lovely to see you have found my personally handcrafted website!</p>
+          <p>As one would expect, a hardware developer has nothing to do with web development, so this website is not supposed to be perfect :) </p>
+          <p>Instead, here's what I have more experience with: </p>
+              <ul>
+                  <li>Programming different microcontrollers (Arduino, ESP32, STM32, etc.)</li>
+                  <li>Coding terminal-based programs in C/C++</li>
+                  <li>Electronics, prototyping</li>
+                  <li>Linux, Raspberry Pi</li>
+                  <li>Working with a MySQL database</li>
+                  <li>Basic software development with C# and .NET framework</li>
+                  <li>Git</li>
+                  <li>Scrum and agile development methodologies</li>
+                  <li>Teamwork, teamwork, and even more teamwork!</li>
+              </ul>
+          
+      </div>
+      <img src="{% static 'website/images/port-pic.jpg' %}" alt="A picture of me working on a project prototype. Pic by Johan Hallimäe." class="intro-pic">
+  </div>
 
-<div style="margin-top: 50px;">
-    <h3 style="margin-left: 20px;">I SPEAK...</h3>
-    <!-- https://uiverse.io/EmmaxPlay/itchy-bobcat-50 -->
-    <div class="cards-container">
-        <div class="card">
-            <div class="tools">
-              <div class="circle">
-                <span class="red box"></span>
-              </div>
-              <div class="circle">
-                <span class="yellow box"></span>
-              </div>
-              <div class="circle">
-                <span class="green box"></span>
-              </div>
-            </div>
-            <div class="card__content">
-                <p>// C</p>
-                <p>#include &lt;stdio.h&gt;</p>
-                <p>int main() {</p>
-                <p>&nbsp;&nbsp;printf("Hello, World!");</p>
-                <p>&nbsp;&nbsp;return 0;</p>
-                <p>}</p>
-            </div>
-          </div>
-        
+  <div style="margin-top: 50px;">
+      <h3 style="margin-left: 20px;">I SPEAK...</h3>
+      <!-- https://uiverse.io/EmmaxPlay/itchy-bobcat-50 -->
+      <div class="cards-container">
           <div class="card">
-            <div class="tools">
-              <div class="circle">
-                <span class="red box"></span>
+              <div class="tools">
+                <div class="circle">
+                  <span class="red box"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow box"></span>
+                </div>
+                <div class="circle">
+                  <span class="green box"></span>
+                </div>
               </div>
-              <div class="circle">
-                <span class="yellow box"></span>
-              </div>
-              <div class="circle">
-                <span class="green box"></span>
+              <div class="card__content">
+                  <p>// C</p>
+                  <p>#include &lt;stdio.h&gt;</p>
+                  <p>int main() {</p>
+                  <p>&nbsp;&nbsp;printf("Hello, World!");</p>
+                  <p>&nbsp;&nbsp;return 0;</p>
+                  <p>}</p>
               </div>
             </div>
-            <div class="card__content">
-                <p>// C++</p>
-                <p>#include &lt;iostream&gt;</p>
-                <p>int main() {</p>
-                <p>&nbsp;&nbsp;std::cout &lt;&lt; "Hello, World!" &lt;&lt; std::endl;</p>
-                <p>&nbsp;&nbsp;return 0;</p>
-                <p>}</p>
+          
+            <div class="card">
+              <div class="tools">
+                <div class="circle">
+                  <span class="red box"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow box"></span>
+                </div>
+                <div class="circle">
+                  <span class="green box"></span>
+                </div>
+              </div>
+              <div class="card__content">
+                  <p>// C++</p>
+                  <p>#include &lt;iostream&gt;</p>
+                  <p>int main() {</p>
+                  <p>&nbsp;&nbsp;std::cout &lt;&lt; "Hello, World!" &lt;&lt; std::endl;</p>
+                  <p>&nbsp;&nbsp;return 0;</p>
+                  <p>}</p>
+              </div>
             </div>
-          </div>
 
-          <div class="card">
-            <div class="tools">
-              <div class="circle">
-                <span class="red box"></span>
+            <div class="card">
+              <div class="tools">
+                <div class="circle">
+                  <span class="red box"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow box"></span>
+                </div>
+                <div class="circle">
+                  <span class="green box"></span>
+                </div>
               </div>
-              <div class="circle">
-                <span class="yellow box"></span>
-              </div>
-              <div class="circle">
-                <span class="green box"></span>
+              <div class="card__content">
+                  <p># Python</p>
+                  <p>print("Hello, World!")</p>
               </div>
             </div>
-            <div class="card__content">
-                <p># Python</p>
-                <p>print("Hello, World!")</p>
-            </div>
-          </div>
 
-    </div>
-</div>
+      </div>
+  </div>
 
-<div style="margin-top: 50px;">
-  <h3 style="margin-left: 20px;">I ALSO LIKE...</h3>
-  <div class="interests-container">
-    <div class="picture-grid">
-      <img class="item1" src="{% static 'website/images/20220402_140610.jpg' %}">
-      <img class="item2" src="{% static 'website/images/pexels-lilartsy-3150547.jpg' %}">
-      <img class="item3" src="{% static 'website/images/pexels-karolina-grabowska-4887211.jpg' %}">
-      <img class="item4" src="{% static 'website/images/20240716_211436.jpg' %}">
-    </div>
-    <div class="interests-text">
-      <ul>
-        <li>Nature</li>
-        <li>Listening to music</li>
-        <li>Reading books</li>
-        <li>History</li>
-        <li>Cats :)</li>
-      </ul>
+  <div style="margin-top: 50px;">
+    <h3 style="margin-left: 20px;">I ALSO LIKE...</h3>
+    <div class="interests-container">
+      <div class="picture-grid">
+        <img class="item1" src="{% static 'website/images/20220402_140610.jpg' %}">
+        <img class="item2" src="{% static 'website/images/pexels-lilartsy-3150547.jpg' %}">
+        <img class="item3" src="{% static 'website/images/pexels-karolina-grabowska-4887211.jpg' %}">
+        <img class="item4" src="{% static 'website/images/20240716_211436.jpg' %}">
+      </div>
+      <div class="interests-text">
+        <ul>
+          <li>Nature</li>
+          <li>Listening to music</li>
+          <li>Reading books</li>
+          <li>History</li>
+          <li>Cats :)</li>
+          <li>F1</li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<div style="margin-top: 50px;">
-    <h3 style="margin-left: 20px;">FEEL FREE TO CHECK OUT SOME OF MY PROJECTS:</h3>
-    <div class="projects-overview-container">
-        <div>
-            <a href="projects.html#libdb" class="home-project-item">Commandline UI for a Library Database</a>
-        </div>
-        <div>
-            <a href="projects.html#LEDController" class="home-project-item">Color Music LED Controller</a>
-        </div>
-        <div >
-            <a href="projects.html#LatencyMeasureDevice" class="home-project-item">Video Latency Measurement Device</a>
-        </div>
-    </div>
-</div>
+  <div style="margin-top: 50px;">
+      <h3 style="margin-left: 20px;">FEEL FREE TO CHECK OUT SOME OF MY PROJECTS:</h3>
+      <div class="projects-overview-container">
+          <div>
+              <a href="projects.html#libdb" class="home-project-item">Commandline UI for a Library Database</a>
+          </div>
+          <div>
+              <a href="projects.html#LEDController" class="home-project-item">Color Music LED Controller</a>
+          </div>
+          <div >
+              <a href="projects.html#LatencyMeasureDevice" class="home-project-item">Video Latency Measurement Device</a>
+          </div>
+      </div>
+  </div>
+</main>
+
 {% endblock %}

@@ -10,8 +10,8 @@ html, body {
 
 body {
     font-family:'DepartureMono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #e7dfd8;
-    color: #231f20;
+    background-color: #C1E8FF;
+    color: #021024;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -30,10 +30,10 @@ header {
 }
 
 nav a {
-    color: #231f20;
+    color: #021024;
     text-decoration: none;
     margin: 0 auto;
-    background: #dfd1c5;;
+    background: #7DA0CA;;
     font-family: inherit;
     padding: 0.6em 1.3em;
     font-weight: 900;
@@ -56,20 +56,21 @@ nav a:active {
 main {
     flex: 1;
     padding: 2rem;
+    margin: 40px;
 }
 
 footer {
-    background-color: #e7dfd8;
+    background-color: #C1E8FF;
     text-align: center;
     padding: 1rem 0;
 }
 
 p a {
-    color: #48423E;
+    color: #052659;
 }
 
 h3 a {
-    color: #231f20;
+    color: #021024;
     text-decoration: none;
 }
 
@@ -78,7 +79,7 @@ h3 a {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #dfd1c5;
+    background-color: #7DA0CA;
     border-radius: 1rem;
     flex-wrap: wrap;
     border: 3px solid black;
@@ -101,7 +102,7 @@ h3 a {
 .interests-container {
     margin-top: 20px;
     display: flex;
-    background-color: #dfd1c5;
+    background-color: #7DA0CA;
     border-radius: 1rem;
     flex-direction: row;
     justify-content: space-evenly;
@@ -149,7 +150,7 @@ h3 a {
     margin: 20px auto;
     padding: 20px;
     display: flex;
-    background-color: #dfd1c5;
+    background-color: #7DA0CA;
     border-radius: 1rem;
     flex-direction: row;
     justify-content: center;
@@ -159,7 +160,7 @@ h3 a {
 
 .home-project-item {
     display: inline-block;
-    background-color: #e7dfd8;
+    background-color: #C1E8FF;
     text-decoration: none;
     color: black;
     margin: 1rem;
@@ -188,7 +189,7 @@ h3 a {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #dfd1c5;
+    background-color: #7DA0CA;
     border-radius: 1rem;
     border: 3px solid black;
 }
@@ -241,9 +242,10 @@ h3 a {
 }
 
 .projects-container {
-    background-color: #dfd1c5;
+    background-color: #C1E8FF;
     border-radius: 1rem;
     padding: 5px 20px;
+    margin: 0 35px;
 }
 
 .projects-title {
@@ -252,9 +254,9 @@ h3 a {
 
 .project-item {
     padding: 5px 20px;
-    background-color: #e7dfd8;
+    background-color: #7DA0CA;
     border-radius: 0.5rem;
-    margin: 10px;
+    margin: 20px 10px;
     border: 3px solid black;
 }
 
@@ -274,7 +276,7 @@ h3 a {
 }
 
 .text-box {
-    background-color: #dfd1c5;
+    background-color: #7DA0CA;
     border-radius: 0.5rem;
     margin: 1.5rem;
     max-width: 600px;
@@ -289,7 +291,7 @@ h3 a {
 }
 
 .email-button {
-    background: #dfd1c5;;
+    background: #7DA0CA;;
     font-family: inherit;
     padding: 0.6em 1.3em;
     font-weight: 900;
@@ -385,8 +387,12 @@ h3 a {
 
 @media (prefers-color-scheme: dark) {
     body, footer, .card, .projects-container {
-        background-color: black;
-        color: white;
+        background-color: #021024;
+        color: #C1E8FF;
+    }
+
+    .project-item a {
+        color: #C1E8FF;
     }
 
     nav a, .introduction-container, 
@@ -397,8 +403,8 @@ h3 a {
     .project-item,
     .text-box, 
     .email-button {
-        background-color: #48423E;
-        color: white;
-        border: 1px solid white;
+        background-color: #052659;
+        color: #C1E8FF;
+        border: 1px solid #C1E8FF;
     }
 }
