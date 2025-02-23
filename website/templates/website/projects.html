@@ -1,0 +1,71 @@
+{% extends 'website/layout.html' %}
+{% load static %}
+
+{% block main%}
+<div class="projects-container">
+    <h1 class="projects-title">PROJECTS</h1>
+    <div class="project-item">
+        <h2 id="Libdb">Commandline UI for a Library Database</h2>
+        <div class="project-item-content">
+            <div>
+                <p>
+                    This project was done by me and my co-student at TalTech. 
+                    It was developed during the first year of university so it isn't too advanced.
+                </p>
+                <p> 
+                    For this project we used C and MySQL for the database. 
+                    I mainly worked on the code aspect of the program but also learned a lot about how a database works from my co-student.
+                </p>
+                <p>
+                    PS! This video isn't showing the final product so you can see some deficiencies, like the password being not hidden.
+                </p>
+            </div>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/n8B_dUuD_6g?si=H2kL742bJti2cd8z" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen
+                class="video">
+            </iframe>
+        </div>
+    </div>
+    <div class="project-item">
+        <h2 id="LEDController">Color Music LED Controller</h2>
+        <div class="project-item-content">
+            <div>
+                <p>This is also a team project and was developed during my second year studies.</p>
+                <p>
+                    It is purely hardware-based and uses frequency filters to control LEDs based on audio input.
+                    The LEDs are controlled by an Arduino Nano board and the frequency filters are made using capacitors and resistors.
+                </p>
+            </div>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/VMhQ0_Xq-rc?si=aeknaavASSzC76hr" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen
+                class="video">
+            </iframe>
+        </div>
+    </div>
+    <div class="project-item">
+        <h2 id="LatencyMeasureDevice">Video Latency Measurement Device</h2>
+        <div class="project-item-content">
+            <div>
+                <p>Another team project, developed in collaboration with a technology company.</p>
+                <p>The final product of this project is a device that measures the real-time latency of a video stream from one location to another.</p>
+                <p>This was my final university project. It was also used as a basis for my thesis.</p> 
+                <p>I worked with and tested different programming languages and microcontrollers to find the best combination for the purpose of the device.</p>
+            </div>
+            <div class="text-box">
+                <p>In case you are interested, <a href="https://tehnika.postimees.ee/8022661/pildid-taltechi-elektroonikatudengid-ehitasid-valmis-vaga-vajaliku-prototuubi-eesti-lennundusele">here</a>'s a link to a news article (in estonian) about it :)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

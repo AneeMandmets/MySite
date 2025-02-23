@@ -12,9 +12,9 @@
         <header>
             <nav>
                 <a href="{% url 'index' %}">HOME</a>
-                <a href="projects.html">PROJECTS</a>
-                <a href="contact.html">CONTACT</a>
-                <a href="blog.html">BLOG</a> 
+                <a href="{% url 'projects' %}">PROJECTS</a>
+                <a href="{% url 'contact' %}">CONTACT</a>
+                <a href="{% url 'blog' %}">BLOG</a> 
             </nav>
         </header>
         {% block main %}
